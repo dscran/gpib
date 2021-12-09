@@ -31,7 +31,8 @@ enum pci_vendor_ids
 enum pci_device_ids
 {
   PCI_DEVICE_ID_82350B = 0x0b01,
-  PCI_DEVICE_ID_82351A = 0x1218
+  PCI_DEVICE_ID_82351A = 0x1218,
+  PCI_DEVICE_ID_82351B = 0x12d7
 };
 
 enum pci_subdevice_ids
@@ -59,7 +60,8 @@ enum board_model
 {
 	MODEL_82350A,
 	MODEL_82350B,
-	MODEL_82351A
+	MODEL_82351A,
+	MODEL_82351B
 };
 
 // struct which defines private_data for board
